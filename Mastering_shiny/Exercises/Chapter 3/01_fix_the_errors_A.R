@@ -22,6 +22,6 @@ shinyApp(ui, server1) #server1 also works, doesn't have to be strictly server
 
 #solution
 #change input$greeting to output$greeting
-#add extra {} for the render text
+#add extra {} for the render text - actually this seems to not modify anything either way
 #change name to input$name
 
